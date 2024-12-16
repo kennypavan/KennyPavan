@@ -1,4 +1,4 @@
-# Because it was too easy to just make this a pdf document. 
+# Because it was too easy to just make this a pdf. 
 Below is a simple package which has methods for displaying details about my experience, skills, hobbies, current projects, some inspirational quotes, and resume. 
 
 ## Install
@@ -8,25 +8,35 @@ pip install kennypavan
 
 ## Usage
 ```python
-import kennypavan as kp #importing me as my initials
+from KennyPavan import KennyPavan
 
 #treating myself as an object
-kennypavan = kp.kennypavan()
+kp = KennyPavan()
 
 #about me
-kennypavan.about()
+kp.about()
 
 #skillset
-kennypavan.skills()
+kp.skills()
 
 #experience
-kennypavan.experience()
+kp.experience()
 
 #education
-kennypavan.education()
+kp.education()
 
 #show any publications
-kennypavan.publications()
+kp.publications()
+
+```
+
+<br />
+
+## Displaying all
+```python
+from KennyPavan import KennyPavan
+kp = KennyPavan()
+kp.displayAll()
 ```
 
 <br />

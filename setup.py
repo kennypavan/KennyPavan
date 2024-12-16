@@ -14,7 +14,7 @@ setuptools.setup(
 	url="https://github.com/kennypavan/kennypavan",
 	packages=setuptools.find_packages(where='src'),  
 	package_dir={'': 'src'},  
-	python_requires='>=3.9',
+	python_requires='>=3.7',
 	classifiers=[
 		"Programming Language :: Python :: 3",
 		"License :: OSI Approved :: MIT License",
