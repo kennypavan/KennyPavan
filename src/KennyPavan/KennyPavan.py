@@ -9,73 +9,75 @@ class KennyPavan:
 		self.instagram = "https://www.instagram.com/kennypavan/"
 
 	def displayAll(self):
-		print("Name: " + self.name)
-		print("Email: " + self.email)
+		print("\n")
+		print(self.name)
+		print(self.email)
+		print("Website: " + self.website)
 		print("Github: " + self.github)
 		print("LinkedIn: " + self.linkedin)
-		print("Website: " + self.website)
 		print("Bluesky: " + self.bluesky)
 		print("Instagram: " + self.instagram)
 		print("\n")
-		print("About:")
 		self.about()
 		print("\n")
-		print("Education:")
 		self.education()
 		print("\n")
-		print("Skills:")
 		self.skills()
 		print("\n")
-		print("Experience:")
 		self.experience()
 		print("\n")
-		print("Publications:")
 		self.publications()
+		print("\n")
 
 	def about(self):
-		output = "Experienced Software Developer with a demonstrated history of working in the computer software industry. Skilled in Python, Java, C++, Javascript, PHP (Laravel), Linux, SQL, and Computational Biology. Strong engineering professional with multiple bachelor degrees. Currently leveraging machine learning, graph convolutional neural networks, and various computational strategies to unravel complex biological systems, particularly in single cell and spatial analyses.\n"
+		output = "\nAbout\n\n"
+		output += "Experienced Software Developer with a demonstrated history of working in the computer software industry. Skilled in Python, Java, C++, Javascript, PHP (Laravel), Linux, SQL, and Computational Biology. Strong engineering professional with multiple bachelor degrees. Currently leveraging machine learning, graph convolutional neural networks, and various computational strategies to unravel complex biological systems, particularly in single cell and spatial analyses.\n"
 		print(output)
 
 	def education(self):
-		output = "PhD. Biomedical Engineering, Oregon Health and Science University (expected 2026)\n"
-		output += "B.S. Computer Science, Western Governors University\n"
-		output += "B.S. Molecular Biology, Montclair State University\n"
-		output += "B.A. Digital Communication and Media/Multimedia, Ramapo College\n"
+		output = "Education\n\n"
+		output += "\tPhD. Biomedical Engineering, Oregon Health and Science University (expected 2026)\n"
+		output += "\tB.S. Computer Science, Western Governors University\n"
+		output += "\tB.S. Molecular Biology, Montclair State University\n"
+		output += "\tB.A. Digital Communication and Media/Multimedia, Ramapo College\n"
 		print(output)
 
 	def skills(self):
-		output = "Python\n"
-		output += "JavaScript\n"
-		output += "C++\n"
-		output += "Java\n"
-		output += "PHP (Laravel)\n"
-		output += "HTML/CSS\n"
-		output += "SQL (various flavors)\n"
-		output += "Machine learning\n"
-		output += "Data visualization\n"
-		output += "Web development\n"
-		output += "Bioinformatics\n"
-		output += "Single-cell Analysis\n"
-		output += "Spatial Analysis\n"
-		output += "Platform Development\n"
+		output = "Skills\n\n"
+		output += "\tPython\n"
+		output += "\tJavaScript\n"
+		output += "\tC++\n"
+		output += "\tJava\n"
+		output += "\tPHP (Laravel)\n"
+		output += "\tHTML/CSS\n"
+		output += "\tSQL (various flavors)\n"
+		output += "\tMachine learning\n"
+		output += "\tData visualization\n"
+		output += "\tWeb development\n"
+		output += "\tBioinformatics\n"
+		output += "\tSingle-cell Analysis\n"
+		output += "\tSpatial Analysis\n"
+		output += "\tPlatform Development\n"
 		print(output)
 
 	def experience(self):
-		output = "Oregon Health & Science University\n"
-		output += "- Biomedical Engineering PhD Candidate: Developing high-throughput analysis packages to understand synaptic connectivity.\n\n"
-		output += "aDNATool\n"
-		output += "- Founder & Bioinformatics Developer: Built an elastic platform for RNA-Seq analysis (2021-2022).\n\n"
-		output += "Self-Employed (Software Development)\n"
-		output += "- Full-Stack Engineer & Consultant: Developed cloud-based inventory and blockchain projects (2019-2022).\n\n"
-		output += "Anchor Digital, Inc.\n"
-		output += "- Senior Database & Backend Developer: Built an institutional trading platform using blockchain (2017-2020).\n\n"
-		output += "Xy Web Solutions\n"
-		output += "- Founder & Lead Developer: Managed a team of six to deliver eCommerce platforms, iOS apps, and operational tools (2009-2015).\n"
+		output = "Experience\n\n"
+		output += "\tOregon Health & Science University\n"
+		output += "\t\tBiomedical Engineering PhD Candidate: Developing high-throughput analysis packages to understand synaptic connectivity.\n\n"
+		output += "\taDNATool\n"
+		output += "\t\tFounder & Bioinformatics Developer: Built an elastic platform for RNA-Seq analysis (2021-2022).\n\n"
+		output += "\tSelf-Employed (Software Development)\n"
+		output += "\t\tFull-Stack Engineer & Consultant: Developed cloud-based inventory and blockchain projects (2019-2022).\n\n"
+		output += "\tAnchor Digital, Inc.\n"
+		output += "\t\tSenior Database & Backend Developer: Built an institutional trading platform using blockchain (2017-2020).\n\n"
+		output += "\tXY Group, LLC\n"
+		output += "\t\tFounder & Lead Developer: Managed a team of six to deliver eCommerce platforms, iOS apps, and operational tools (2009-2015).\n"
 		print(output)
 
 	def publications(self):
-		output = "AnnSQL: A Scalable SQL Interface for Single-Cell Data\n"
-		output += "   Authors: Kenny Pavan, Arpiar Saunders.\n"
-		output += "   DOI: https://doi.org/10.1101/2024.11.02.621676\n"
-		output += "   Description: This publication introduces AnnSQL, a novel package enabling SQL-based interaction with AnnData objects. The tool streamlines single-cell data processing and supports efficient querying of large-scale datasets."
+		output = "Publications\n\n"
+		output += "\tAnnSQL: A Scalable SQL Interface for Single-Cell Data\n"
+		output += "\t\tAuthors: Kenny Pavan, Arpiar Saunders.\n"
+		output += "\t\tDOI: https://doi.org/10.1101/2024.11.02.621676\n"
+		output += "\t\tThe tool streamlines single-cell data processing and supports efficient SQL querying of large-scale datasets."
 		print(output)

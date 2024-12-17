@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 	name='KennyPavan',
-	version='v1.0.0',
+	version='v1.0.2',
 	author="Kenny Pavan",
 	author_email="pavan@protonmail.com",
 	description="Kenny Pavan: About, projects, and resume as a PyPi package.",
